@@ -1,0 +1,22 @@
+<!-- mostrar-datos.component.html -->
+<div *ngIf="datosSaveDatasets">
+  <p>{{ datosSaveDatasets.message }}</p>
+  <div *ngFor="let dataset of datosSaveDatasets.datasets">
+    <h3>{{ dataset.name }}</h3>
+    <!-- Puedes mostrar otras propiedades del dataset aquí -->
+  </div>
+</div>
+
+<!--
+<div *ngIf="datosExecuteQueries">
+  <h2>Resultados de Consultas DAX</h2>
+  <div *ngFor="let result of datosExecuteQueries.results">
+    <h3>Tabla</h3>
+    <div *ngFor="let table of result.tables">
+      <div *ngFor="let row of table.rows">
+        <p>{{ row['financials[Country]'] }} - {{ row['financials[Product]'] }} - {{ row['financials[ Sales]'] }} - {{ row['financials[Date]'] }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->

@@ -7,6 +7,6 @@ Pasos previos
 
 Endpoints de la API Rest usados
 
-1- Endpoint GetDataSets: https://api.powerbi.com/v1.0/myorg/datasets
+1- Endpoint Get DataSets: https://api.powerbi.com/v1.0/myorg/datasets
 
 2- Endpoint ExecuteQueries Dataset: https://api.powerbi.com/v1.0/myorg/datasets/${datasetId}/executeQueries

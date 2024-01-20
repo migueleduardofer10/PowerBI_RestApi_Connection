@@ -1,5 +1,6 @@
 #### Conexión a la API Rest de Power BI en JavaScript
 Video guía: https://www.youtube.com/watch?v=APj3MFt2w5I
+
 Pasos previos 
 - Registrar una aplicación Azure AD 
 - Escribir código de Autenticación por token
